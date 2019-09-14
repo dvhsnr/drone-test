@@ -8,4 +8,3 @@ steps:
   image: ubuntu:latest
   commands:
   - echo "THIS WORKS"
-
