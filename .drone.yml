@@ -17,9 +17,10 @@ pipeline:
     - echo "2nd run"
     depends_on: ["clone"]
   
-  discord:
-    image: appleboy/drone-discord
-    webhook_id: 622638418673008676
-    webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
-    message: "THIS IS A TEST MESSAGE"
+  - name: discord
+    discord:
+      image: appleboy/drone-discord
+      webhook_id: 622638418673008676
+      webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
+      message: "THIS IS A TEST MESSAGE"
 
