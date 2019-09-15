@@ -20,4 +20,5 @@ pipeline:
   discord:
     image: appleboy/drone-discord
     webhook_id: https://discordapp.com/api/webhooks/622638418673008676/Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
+    webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
     message: "THIS IS A TEST MESSAGE"
