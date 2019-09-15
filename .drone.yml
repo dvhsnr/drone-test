@@ -9,9 +9,11 @@ steps:
   commands:
   - sleep 20
   - echo "THIS WORKS"
+  depends_on: ["clone"]
 
 - name: greeting2
   image: ubuntu:latest
   commands:
   - sleep 20
   - echo "2nd run"
+  depends_on: ["clone"]
