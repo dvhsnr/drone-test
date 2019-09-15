@@ -10,12 +10,6 @@ steps:
   - sleep 20
   - echo "THIS WORKS"
 
----
-kind: pipeline
-type: docker
-name: default2
-
-steps:
 - name: greeting
   image: ubuntu:latest
   commands:
