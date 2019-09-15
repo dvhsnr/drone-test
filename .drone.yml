@@ -7,13 +7,17 @@ steps:
 - name: greeting
   image: ubuntu:latest
   commands:
-  - sleep 20
   - echo "THIS WORKS"
   depends_on: ["clone"]
 
 - name: greeting2
   image: ubuntu:latest
   commands:
-  - sleep 20
   - echo "2nd run"
   depends_on: ["clone"]
+
+pipeline:
+  discord:
+    image: appleboy/drone-discord
+    webhook_token: NTg5NjQzNzIxNzcxODQzNTg1.XWCO2w.AaSphAIThrt7Hx9zbsBqWiQyoxA
+    webhook_id: https://discordapp.com/api/webhooks/622638418673008676/Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
