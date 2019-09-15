@@ -23,5 +23,5 @@ steps:
     webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
     message: "THIS IS A TEST MESSAGE"
   depends_on: 
-    - greeting1
+    - greeting
     - greeting2
