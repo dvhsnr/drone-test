@@ -19,5 +19,4 @@ steps:
 pipeline:
   discord:
     image: appleboy/drone-discord
-    webhook_token: NTg5NjQzNzIxNzcxODQzNTg1.XWCO2w.AaSphAIThrt7Hx9zbsBqWiQyoxA
     webhook_id: https://discordapp.com/api/webhooks/622638418673008676/Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
