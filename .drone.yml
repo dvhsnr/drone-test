@@ -17,7 +17,8 @@ steps:
   depends_on: ["clone"]
 
 - name: Discord
-  image: appleboy/drone-discord
-  webhook_id: 622638418673008676
-  webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
-  message: "THIS IS A TEST MESSAGE"
+  discord:
+    image: appleboy/drone-discord
+    webhook_id: 622638418673008676
+    webhook_token: Zdh_UDxxBCF5RnTF1lSvmkiEZQNLgfaHYMrcElmLW52FBekY6rDmdl7sw3WRAn9IQWZT
+    message: "THIS IS A TEST MESSAGE"
