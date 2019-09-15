@@ -7,4 +7,17 @@ steps:
 - name: greeting
   image: ubuntu:latest
   commands:
+  - sleep 5
   - echo "THIS WORKS"
+
+---
+kind: pipeline
+type: docker
+name: default2
+
+steps:
+- name: greeting
+  image: ubuntu:latest
+  commands:
+  - sleep 5
+  - echo "2nd run"
