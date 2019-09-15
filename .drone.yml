@@ -10,7 +10,7 @@ steps:
   - sleep 20
   - echo "THIS WORKS"
 
-- name: greeting
+- name: greeting2
   image: ubuntu:latest
   commands:
   - sleep 20
